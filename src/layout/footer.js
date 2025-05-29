@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
             <div className='flex gap-2 items-start'>
 <Image src={Phone} alt="location" width={20} height={20} />
- <span className="text-white text-sm">95 Tinubu Estate, Lekki, Lagos</span>
+ <span className="text-white text-sm">34567847747</span>
             </div>
             <div className='flex gap-2 items-start mt-2'>
               <Image src={Mail} alt='mail' width={20} height={20} />
