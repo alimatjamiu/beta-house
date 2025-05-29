@@ -20,7 +20,7 @@ export default function Hero() {
 <div className="bg-transparent backdrop-blur  shadow-2xl p-8">
    <div className="flex flex-col md:flex-row  justify-center">
           <div className="bg-white text-center p-4 flex flex-col md:flex-row justify-around gap-6 lg:gap-10 md:w-[800px] w-full">
-            <div className="border-b md:border-b-0 md:border-r border-[#CAD4DE] px-6">
+            <div className="border-b md:border-b-0 md:border-r border-[#CAD4DE] px-4">
               <h3 className="font-semibold">Location</h3>
               <p>e.g. Gbagada</p>
             </div>
