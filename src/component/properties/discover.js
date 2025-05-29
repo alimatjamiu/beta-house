@@ -5,7 +5,7 @@ import { Db } from "../../db";
 import Location from "../../../public/images/location.png";
 import Bedroom from "../../../public/images/bedroom.png";
 import Bathroom from "../../../public/images/bathroom.png";
-import Icon from "../../../public/images/icon.png";
+
 import Share from "../../../public/images/share.png";
 import { MdOutlineNavigateBefore, MdOutlineNavigateNext } from "react-icons/md";
 import { BsSliders } from "react-icons/bs";
@@ -95,7 +95,7 @@ export default function Discover() {
               <div className="flex items-center justify-between">
                 <span className="text-[#373737] font-bold text-base">{property.price}</span>
                 <div className="flex gap-2 items-center">
-                  <Image src={Icon} alt="icon" width={16} height={16} />
+                  
                   <Image src={Share} alt="share" width={16} height={16} />
                   <Image src={Heart} alt="heart" width={14} height={14} />
                 </div>
